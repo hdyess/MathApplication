@@ -44,13 +44,19 @@ public class MathApp {
         // Question 3:
 
         // declare variables here
-
+        double radius = 7.25;
+        double area;
 
         // then code solution
-
+        area = Math.PI * Math.pow(radius, 2);
 
         // then use System.out.println() to display results
 
+        System.out.printf(
+                "The area of a circle with a radius of %.2f is %.2f.",
+                radius,
+                area
+        );
 
         // ex: System.out.println("The answer is " + answer);
 
@@ -61,13 +67,15 @@ public class MathApp {
         // Question 4:
 
         // declare variables here
-
+        double asdf;
+        double root;
 
         // then code solution
-
+        asdf = 5.0;
+        root = Math.sqrt(asdf);
 
         // then use System.out.println() to display results
-
+        System.out.println(root);
 
         // ex: System.out.println("The answer is " + answer);
 
