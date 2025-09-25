@@ -86,9 +86,18 @@ public class MathApp {
         // Question 5:
 
         // declare variables here
-
+        float point1x;
+        float point1y;
+        float point2x;
+        float point2y;
 
         // then code solution
+        point1x = 5;
+        point1y = 10;
+
+        point2x = 85;
+        point2y = 50;
+
 
 
         // then use System.out.println() to display results
