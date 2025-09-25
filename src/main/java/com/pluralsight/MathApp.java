@@ -122,13 +122,15 @@ public class MathApp {
         // Question 6:
 
         // declare variables here
-
+        double preAbsoluteNumber;
+        double postAbsoluteNumber;
 
         // then code solution
-
+        preAbsoluteNumber = -3.58;
+        postAbsoluteNumber = Math.abs(preAbsoluteNumber);
 
         // then use System.out.println() to display results
-
+        System.out.printf("The absolute value is %.2f.\n", postAbsoluteNumber);
 
         // ex: System.out.println("The answer is " + answer);
 
@@ -139,13 +141,13 @@ public class MathApp {
         // Question 7:
 
         // declare variables here
-
+        double randomDouble;
 
         // then code solution
-
+        randomDouble = Math.random();
 
         // then use System.out.println() to display results
-
+        System.out.printf("Random number: %.2f\n", randomDouble);
 
         // ex: System.out.println("The answer is " + answer);
 
@@ -156,13 +158,21 @@ public class MathApp {
         // Question 8:
 
         // declare variables here
-
+        int days;
+        int hours;
+        int minutes;
+        int seconds;
+        int milliseconds;
 
         // then code solution
-
+        days = 24;
+        hours = days*24;
+        minutes = hours*60;
+        seconds = minutes*60;
+        milliseconds = seconds*1000;
 
         // then use System.out.println() to display results
-
+        System.out.printf("Seconds in %d days: %d\nMilliseconds: %d\n", days, seconds, milliseconds);
 
         // ex: System.out.println("The answer is " + answer);
 
