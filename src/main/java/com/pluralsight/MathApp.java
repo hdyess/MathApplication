@@ -53,7 +53,7 @@ public class MathApp {
         // then use System.out.println() to display results
 
         System.out.printf(
-                "The area of a circle with a radius of %.2f is %.2f.",
+                "The area of a circle with a radius of %.2f is %.2f.\n",
                 radius,
                 area
         );
@@ -86,10 +86,15 @@ public class MathApp {
         // Question 5:
 
         // declare variables here
-        float point1x;
-        float point1y;
-        float point2x;
-        float point2y;
+        double dist;
+
+        double point1x;
+        double point1y;
+        double point2x;
+        double point2y;
+
+        double xdist;
+        double ydist;
 
         // then code solution
         point1x = 5;
@@ -98,10 +103,15 @@ public class MathApp {
         point2x = 85;
         point2y = 50;
 
+        //finds the distance between the points
+        xdist = Math.abs(point1x - point2x);
+        ydist = Math.abs(point1y - point2y);
 
+        //pythagorean theorem
+        dist = Math.sqrt(Math.pow(xdist, 2) + Math.pow(ydist, 2));
 
         // then use System.out.println() to display results
-
+        System.out.printf("The distance between [5, 10] and [85, 50] is %.8f.\n", dist);
 
         // ex: System.out.println("The answer is " + answer);
 
